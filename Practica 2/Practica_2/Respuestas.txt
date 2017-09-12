@@ -1,0 +1,15 @@
+﻿
+1° What’s difference between Portable (CPL) and Shared (SAP) projects?
+   R=Portable class library does everything in a portable class library and you would use dependency 
+     injection to do platform specific stuff and Shared Project uses a shared code model where you 
+     can use conditional compilation inside of the code file to do platform specific features.
+
+2° What are the requirements to configure Xamarin Mac Agent?
+   R=A Mac running OS X El Capitan (10.11) or higher (although the latest stable version is recommended).
+     Visual Studio (although the latest stable version is recommended). 
+     Xamarin.iOS SDK.
+     Xcode(7+) IDE and iOS SDK (although the latest stable version from the App Store is recommended).
+     Enable remote access to a user.
+
+3° How many projects you have and why you need all?
+   R=3 project and each of them contains the necessary information to be able to compile in each platform

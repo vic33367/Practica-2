@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Practica_2"
+             x:Class="Practica_2.MainPage"
+             BackgroundColor="#48C2C9">
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <Label x:Name="lblName" TextColor="#FFFFFF" FontSize = "Large" Text="Full Name:Victor Alvarez Agapito" VerticalOptions="Center" HorizontalOptions="Center"  />
+        <Label x:Name="lblID"  TextColor="#FFFFFF" FontSize = "Large" Text="School ID:13090364" VerticalOptions="Center" HorizontalOptions="Center"/>
+    </StackLayout>
+</ContentPage>
